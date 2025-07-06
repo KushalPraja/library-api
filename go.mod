@@ -1,4 +1,4 @@
-module github.com/kushalprajapati/greetings
+module github.com/kushalpraja/library-api
 
 go 1.24.4
 

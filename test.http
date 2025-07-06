@@ -1,4 +1,4 @@
-GET http://localhost:8080/Books/list HTTP/1.1
+GET http://localhost:8080/books/list HTTP/1.1
 
 
 ### 
@@ -8,7 +8,7 @@ GET http://localhost:8080/ HTTP/1.1
 
 ### 
 
-POST http://localhost:8080/Books/add HTTP/1.1
+POST http://localhost:8080/books/add HTTP/1.1
 Content-Type: application/json
 
 {
@@ -20,7 +20,7 @@ Content-Type: application/json
 
 ### 
 
-DELETE http://localhost:8080/Books/delete HTTP/1.1
+DELETE http://localhost:8080/books/delete HTTP/1.1
 Content-Type: application/json
 
 {
@@ -30,7 +30,7 @@ Content-Type: application/json
 
 ### 
 
-PATCH http://localhost:8080/Books/edit HTTP/1.1
+PATCH http://localhost:8080/books/edit HTTP/1.1
 Content-Type: application/json
 
 {
@@ -42,7 +42,7 @@ Content-Type: application/json
 
 ### 
 
-PATCH http://localhost:8080/Books/edit HTTP/1.1
+PATCH http://localhost:8080/books/edit HTTP/1.1
 Content-Type: application/json
 
 {
