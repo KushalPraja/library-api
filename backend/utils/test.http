@@ -12,7 +12,7 @@ POST http://localhost:8080/books/add HTTP/1.1
 Content-Type: application/json
 
 {
- "Book_name": "The C Programming Language",
+ "Book_name": "The GO Programming Language",
  "Author": "Brian W. Kernighan and Dennis M. Ritchie",
  "ISBN": 0
 }
@@ -24,7 +24,7 @@ DELETE http://localhost:8080/books/delete HTTP/1.1
 Content-Type: application/json
 
 {
- "title": "The Go Programming Language"
+ "title": "The GO Programming Language"
 }
 
 
