@@ -621,14 +621,14 @@ func (m model) viewEditBook() string {
 }
 
 func (m model) viewLoading() string {
-	s := titleStyle.Render("📚 Book Management System") + "\n\n"
+	s := titleStyle.Render("Book Management System") + "\n\n"
 	s += "⏳ Processing request...\n\n"
 	s += lipgloss.NewStyle().Faint(true).Render("q: quit")
 	return s
 }
 
 func (m model) viewResponse() string {
-	s := titleStyle.Render("📚 Book Management System") + "\n\n"
+	s := titleStyle.Render("Book Management System") + "\n\n"
 
 	if m.response != "" {
 		s += "✅ " + lipgloss.NewStyle().Bold(true).Render("Response:") + "\n\n"
